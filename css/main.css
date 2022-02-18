@@ -6,6 +6,14 @@
 .martop{
     margin-top: 0%;
 }
+div.logo{
+    background-image:url('https://www.koshkafursuits.com/img/bg-header.gif');
+    height: 180px;
+}
+.logowo{
+    margin-left: 45%;
+    margin-right: 45%;
+}
 a.button{
     color:#ff0066;
 }
