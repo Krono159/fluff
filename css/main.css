@@ -1,18 +1,23 @@
+body{
+    background-image:url('https://www.koshkafursuits.com/img/bg-header.gif');
+}
 .top-bar{ 
     background-color: #ffabcd;
     margin-bottom: 0%;
-    height: 90px;
+    height: auto;
 }
 .martop{
     margin-top: 0%;
 }
 div.logo{
-    background-image:url('https://www.koshkafursuits.com/img/bg-header.gif');
-    height: 180px;
+   /* background-image:url('https://www.koshkafursuits.com/img/bg-header.gif');*/
+    height: auto;
 }
 .logowo{
-    margin-left: 45%;
-    margin-right: 45%;
+    height: 160px;
+    width: 160px;
+    margin-top: 5px;
+    margin-left: 5px;
 }
 a.button{
     color:#ff0066;
@@ -20,6 +25,25 @@ a.button{
 a.button:hover{
     color:#ff00ff;
 }
-a.activebtn{color: #ff83ee;}
-a.activebtn:hover{color: #ffabee;}
-a.disbtn{color: #8a0037;}
+a.activebtn{
+    color: #ff83ee;
+}
+a.activebtn:hover{
+    color: #ffabee;
+}
+a.disbtn{
+    color: #8a0037;
+}
+.circulo {
+    width: 170px;
+    height: 170px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 43%;
+    margin-right: 45%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #ff8737;
+ 
+}
