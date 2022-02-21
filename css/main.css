@@ -47,3 +47,8 @@ a.disbtn{
     background: #ff8737;
  
 }
+.mainblock{
+    background-color: rgb(255, 218, 170);
+    margin: 4%;
+    height: 1600px;
+}
