@@ -20,10 +20,13 @@ div.logo{
     margin-left: 5px;
 }
 a.button{
-    color:#ff0066;
+    color:#ffabcd;
 }
 a.button:hover{
-    color:#ff00ff;
+    color:#f000f0;
+}
+a.button:visited{
+    color: #ffd1f6;
 }
 a.activebtn{
     color: #ff83ee;
@@ -51,4 +54,12 @@ a.disbtn{
     background-color: rgb(255, 218, 170);
     margin: 4%;
     height: 1600px;
+}
+h1.title{
+    
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+}
+p.void{
+    opacity: 0%;
 }
