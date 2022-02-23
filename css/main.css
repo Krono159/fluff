@@ -73,3 +73,11 @@ p.void{
     border: 4px solid rgb(209, 173, 125);
     border-radius: 6px;
 }
+
+.foot{
+    background-color: #8a0037;
+    height: 60px;
+}
+.copy{
+    color:#ffffff86;
+}
