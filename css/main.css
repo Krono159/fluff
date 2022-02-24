@@ -38,8 +38,8 @@ a.disbtn{
     color: #8a0037;
 }
 .circulo {
-    width: 170px;
-    height: 170px;
+    width: 200px;
+    height: 200px;
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 43%;
@@ -47,13 +47,12 @@ a.disbtn{
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    background: #ff8737;
+    background: #97d5ff;
  
 }
 .mainblock{
     background-color: rgb(255, 218, 170);
     margin: 4%;
-    height: 1600px;
 }
 .title{
     
@@ -80,4 +79,7 @@ p.void{
 }
 .copy{
     color:#ffffff86;
+}
+.round{
+    border-radius: 5px;
 }
