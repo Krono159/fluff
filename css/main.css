@@ -54,6 +54,9 @@ a.disbtn{
     background-color: rgb(255, 218, 170);
     margin: 4%;
 }
+.mainshop{
+    background-color: rgb(255, 218, 170);
+}
 .title{
     
     font-family: 'Lobster', cursive;
@@ -83,3 +86,19 @@ p.void{
 .round{
     border-radius: 5px;
 }
+.content-shop{
+    display:flex;
+    justify-content:space-evenly;
+    
+}
+.botones{
+    width: 125px;
+    height: 125px;
+    margin-left: 30%;
+    justify-content: center;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #97d5ff;
+}
+cha
