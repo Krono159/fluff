@@ -1,5 +1,5 @@
 body{
-    background-image:url('https://www.koshkafursuits.com/img/bg-header.gif');
+    
 }
 .top-bar{ 
     background-color: #ffabcd;
@@ -92,12 +92,17 @@ p.void{
     
 }
 .botones{
-    width: 125px;
-    height: 125px;
-    margin-left: 30%;
+    width: 100px;
+    height: 100px;
+    display: flex;
     justify-content: center;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
     background: #97d5ff;
+}
+.shopmenu-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
 }
