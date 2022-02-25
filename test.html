@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test nonFF</title>
+</head>
+<body>
+    <script>
+        //crear o diseñar promesa
+
+/*        let p = new Promise(function(resolve,reject){
+            let suma = 2 +65;
+            if (suma === 8) {
+                resolve("correcto");                
+            }else{
+                reject(error)
+            }
+
+        });
+
+        p.then(function(resolve){
+            alert("There's whiskey in the jar!");
+            console.log(resolve)
+        }).catch(function(error){
+            alert("there is no whiskey in the jar!");
+            console.log(error)
+        })*/
+
+        function pta(){
+            return new Promise(function(resolve,reject){
+                let tareaRealizada = true;
+                if (tareaRealizada === true){
+                    let device = {
+                        color:"dorado",
+                        model: "s8+"
+                    }
+                    resolve(device);
+                }
+                else{
+                    reject("The reason is you")
+                }
+            });
+        }
+        pta().then(function(mensaje){
+            alert("FELICIDADES! TE GANASTE UN" + mensaje + "!!!!");
+        }).catch(function(error){
+            alert("FELICIDADES! EL PROBLEMA ERES TU SEGUN LA LINEA 44 QUE DICE: " + error);
+        });
+    </script>
+</body>
+</html>
