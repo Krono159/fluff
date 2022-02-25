@@ -38,16 +38,16 @@ a.disbtn{
     color: #8a0037;
 }
 .circulo {
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
     margin-top: 15px;
     margin-bottom: 15px;
-    margin-left: 43%;
-    margin-right: 45%;
+    margin-left: 41%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
     background: #97d5ff;
+    
  
 }
 .mainblock{
@@ -101,4 +101,3 @@ p.void{
     border-radius: 50%;
     background: #97d5ff;
 }
-cha
