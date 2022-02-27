@@ -35,6 +35,22 @@ a.activebtn:hover{
 a.disbtn{
     color: #8a0037;
 }
+a.shopmenu-link{
+    color: #000000;
+    text-decoration: none;
+}
+a.shopmenu-link:hover{
+    color: #7e7e7e;
+    text-decoration: none;
+}
+a.shopmenu-link:hover:visited{
+    color: #7e7e7e;
+    text-decoration: none;
+}
+a.shopmenu-link:visited{
+    color: #000000;
+    text-decoration: none;
+}
 .circulo {
     width: 230px;
     height: 230px;
