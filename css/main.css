@@ -114,6 +114,7 @@ p.void{
     -webkit-border-radius: 50%;
     border-radius: 50%;
     background: #97d5ff;
+    transition-duration: 1s;
 }
 .shopmenu-text{
     display: flex;
