@@ -65,7 +65,7 @@ a.shopmenu-link:visited{
  
 }
 .mainblock{
-    background-color: rgb(255, 218, 170);
+    background-color: #ffdaaa;
     margin: 4%;
 }
 .mainshop{
@@ -134,7 +134,7 @@ p.void{
 
 #menu ul a {
   display:block;
-  color:#fff;
+  color:#fff    ;
   text-decoration:none;
   font-weight:400;
   font-size:15px;
